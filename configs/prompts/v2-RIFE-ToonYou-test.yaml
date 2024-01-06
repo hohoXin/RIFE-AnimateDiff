@@ -1,0 +1,34 @@
+ToonYou:
+  motion_module:
+    - "models/Motion_Module/mm_sd_v15_v2.ckpt"
+
+  motion_module_lora_configs:
+    - path:  "models/MotionLoRA/v2_lora_PanLeft.ckpt"
+      alpha: 0.7
+
+  dreambooth_path: "models/DreamBooth_LoRA/toonyou_beta3.safetensors"
+  lora_model_path: ""
+
+  seed:           [52522, 15641218, 352111, 61639371]
+  steps:          25
+  guidance_scale: 7
+
+  VFI_flag: True
+  VFI_num: 3
+
+  fps: 24
+
+  profiler: False
+
+  prompt:
+    - "(masterpiece, best quality), 1girl, (oversized leather jacket), navel, thick thighs, shorts, ((intricate, leaning against the wall, dappled sunlight, poster)), long hair, upper body, wavy hair, blonde, hand in pocket, head tilt, wide hips"
+    - "(masterpiece, best quality), 1girl, (oversized leather jacket), navel, thick thighs, shorts, ((intricate, leaning against the wall, dappled sunlight, poster)), long hair, upper body, wavy hair, blonde, hand in pocket, head tilt, wide hips"
+    - "(masterpiece, best quality), 1girl, (oversized leather jacket), navel, thick thighs, shorts, ((intricate, leaning against the wall, dappled sunlight, poster)), long hair, upper body, wavy hair, blonde, hand in pocket, head tilt, wide hips"
+    - "(masterpiece, best quality), 1girl, (oversized leather jacket), navel, thick thighs, shorts, ((intricate, leaning against the wall, dappled sunlight, poster)), long hair, upper body, wavy hair, blonde, hand in pocket, head tilt, wide hips"
+  
+  
+  n_prompt:
+    - "(worst quality, low quality, letterboxed), mutated hands and fingers, bad anatomy, wrong anatomy, ugly, static, dull, boring,  bad-hands-5,  static scenes"
+    - "(worst quality, low quality, letterboxed), mutated hands and fingers, bad anatomy, wrong anatomy, ugly, static, dull, boring,  bad-hands-5,  static scenes"
+    - "(worst quality, low quality, letterboxed), mutated hands and fingers, bad anatomy, wrong anatomy, ugly, static, dull, boring,  bad-hands-5,  static scenes"
+    - "(worst quality, low quality, letterboxed), mutated hands and fingers, bad anatomy, wrong anatomy, ugly, static, dull, boring,  bad-hands-5,  static scenes"
