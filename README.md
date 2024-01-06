@@ -7,11 +7,11 @@ This repository is an extension of the official implementation of [AnimateDiff](
 <table class="center">
     <tr style="line-height: 0">
         <td width=20% style="border: none; text-align: center">Original AnimateDiff</td>
-        <td width=80% style="border: none"><img src="../__assets__/rife/toonyou-original.gif" style="width:100%"></td>        
+        <td width=80% style="border: none"><img src="__assets__/rife/toonyou-original.gif" style="width:100%"></td>        
     </tr>
     <tr>
         <td width=20% style="border: none; text-align: center">AnimateDiff with RIFE</td>
-        <td width=80% style="border: none"><img src="../__assets__/rife/toonyou-rife.gif" style="width:100%"></td>
+        <td width=80% style="border: none"><img src="__assets__/rife/toonyou-rife.gif" style="width:100%"></td>
     </tr>
 </table>
 
@@ -120,7 +120,7 @@ python -m scripts.RIFE-animate --config [path to the config file]
 ```
 
 ### ORIGINAL README
-Please refer to the [original README](../__assets__/docs/ORIGINAL_README.md) for more details.
+Please refer to the [original README](__assets__/docs/ORIGINAL_README.md) for more details.
 
 ## Citation
 official animatediff repo: [AnimateDiff](https://github.com/guoyww/AnimateDiff.git)
